@@ -1,0 +1,42 @@
+1- justify-content :  is used to align flex items along the main axis of a flex container, helping to distribute space between and around content items.
+	- flex-start: Items are packed toward the start of the flex container. This is the default value.
+	- flex-end: Items are packed toward the end of the flex container.
+	- center: Items are centered along the main axis.
+	- space-between: Items are evenly distributed in the flex container. The first item is at the start and the last item is at the end.
+	- space-around: Items are evenly distributed withequal space around them. The space between the items is twice as large as the space at the edges.
+	- space-evenly: Items are distributed so that the spacing between any two items (and the space to the edges) is equal.
+2- align-items : is used to align flex items along the cross axis of the flex container. It helps control the alignment of items within a flex container.
+	- stretch: Flex items are stretched to fill the container (default value). They will stretch to the container’s height unless they have a fixed height.
+	- flex-start: Flex items are aligned at the start of the cross axis.
+	- flex-end: Flex items are aligned at the end of the cross axis.
+	- center: Flex items are centered along the cross axis.
+	- baseline: Flex items are aligned such that their baselines align.
+3- flex-direction : is used to define the direction in which the flex items are placed in the flex container.
+	- row: Flex items are placed in the same direction as text (left to right). This is the default value.
+	- row-reverse: Flex items are placed in the reverse direction of text (right to left).
+	- column: Flex items are placed from top to bottom.
+	- column-reverse: Flex items are placed from bottom to top.
+4- order : is used with flexbox layouts to control the order in which flex items appear within their flex container
+	- Default value: 0 (items are displayed in the order they appear in the source code).
+	- Positive values: Items with higher positive values appear later in the layout.
+	- Negative values: Items with lower negative values appear earlier in the layout.
+5- align-self : is used in flexbox layouts to override the align-items property for individual flex items
+	- auto: The item inherits the align-items value from its parent container (default value).
+	- stretch: The item is stretched to fill the container along the cross axis.
+	- flex-start: The item is aligned at the start of the cross axis.
+	- flex-end: The item is aligned at the end of the cross axis.
+	- center: The item is centered along the cross axis.
+	- baseline: The item is aligned such that its baseline aligns with the baseline of the parent container.
+6- flex-wrap : is used with flexbox layouts to control whether flex items should wrap onto multiple lines or stay in a single line, and the direction in which lines are stacked.
+	- nowrap: This is the default value. Flex items are laid out in a single line, which can cause overflow if the items do not fit within the container.
+	- wrap: Flex items wrap onto multiple lines. The items will flow onto new lines as needed.
+	- wrap-reverse: Flex items wrap onto multiple lines, but in reverse order. The last line will be at the top, and the first line will be at the bottom.
+7- flex-flow : is a shorthand property that combines the flex-direction and flex-wrap properties. It allows you to define both the direction of the flex items and whether they should wrap onto multiple lines in a single declaration.
+8- align-content : is used in flexbox layouts to control the alignment of flex lines (rows or columns) within a flex container when there is extra space on the cross axis
+	- stretch: Flex lines are stretched to take up the remaining space (default value). Lines will expand to fill the container.
+	- flex-start: Flex lines are packed toward the start of the container.
+	- flex-end: Flex lines are packed toward the end of the container.
+	- center: Flex lines are centered in the container.
+	- space-between: Flex lines are evenly distributed in the container with the first line at the start and the last line at the end.
+	- space-around: Flex lines are evenly distributed with equal space around each line.
+	- space-evenly: Flex lines are evenly distributed with equal space between them.
