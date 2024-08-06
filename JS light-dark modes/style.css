@@ -2,19 +2,7 @@ body{
     background-color: #eeeee2;
     color: #ea5b1d;
 }
-#content {
-    text-align: center;
-    padding: 20px;
-}
 
-.light {
-    background-color: #eeeee2;
-    color: #ea5b1d;
-}
-.dark {
-    background-color: hsl(120, 1%, 26%);
-    color: #eeeee2;
-}
 .dark button{
     background-color: #ea5b1d;
     border: 1px solid beige;
