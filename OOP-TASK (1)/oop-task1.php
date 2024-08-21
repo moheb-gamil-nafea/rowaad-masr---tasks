@@ -1,5 +1,7 @@
 <?php
 
+/*------------------------------------Task (1)-----------------------------------------*/
+
 class Circle {
     protected float $radius;
     protected string $color;
@@ -57,8 +59,6 @@ class Cylinder extends Circle{
 }
 $cylinder = new Cylinder(3.5 , 1.3 ,"Red");
 $cylinder -> display();
-
-/*-------------------------------------------------------------------------------------------------------*/
 
 
 
